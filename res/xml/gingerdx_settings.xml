@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <CheckBoxPreference android:key="pref_do_profile_scrolling" -->
+    <!-- android:title="Profile scrolling"/> -->
+    <!-- <CheckBoxPreference android:key="pref_do_profile_flinging" -->
+    <!-- android:title="Profile flinging"/> -->
+
+	
+	<!-- PIE Controls -->
+	<PreferenceScreen
+			android:title="@string/pie_controls_title" 
+			android:summary="@string/pie_controls_summary">
+			<intent
+				android:action="android.intent.action.MAIN"
+				android:targetClass="com.cyanogenmod.cmparts.activities.UIPieActivity"
+				android:targetPackage="com.cyanogenmod.cmparts" />
+	</PreferenceScreen>
+
+    <!-- Call options -->
+
+    <PreferenceScreen
+        android:summary="@string/gdx_call_screen2"
+        android:title="@string/gdx_call_screen1" >
+        <PreferenceCategory android:title="@string/gdx_call_screen_sound" >
+            <CheckBoxPreference
+                android:key="pref_pick_up_to_call"
+                android:summary="@string/gdx_call_screen_sound_pickup2"
+                android:title="@string/gdx_call_screen_sound_pickup1" />
+            <CheckBoxPreference
+                android:key="pref_call_me_louder"
+                android:summary="@string/gdx_call_screen_sound_lounder2"
+                android:title="@string/gdx_call_screen_sound_lounder1" />
+            <CheckBoxPreference
+                android:key="pref_ringer_loop"
+                android:summary="@string/gdx_call_screen_sound_loop2"
+                android:title="@string/gdx_call_screen_sound_loop1" />
+            <CheckBoxPreference
+                android:key="pref_flipping_mutes_ringer"
+                android:summary="@string/gdx_call_screen_sound_flipdown2"
+                android:title="@string/gdx_call_screen_sound_flipdown1" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/gdx_call_screen_buttons" >
+            <CheckBoxPreference
+                android:key="pref_back_button_ends_call"
+                android:summary="@string/gdx_call_screen_buttons_back2"
+                android:title="@string/gdx_call_screen_buttons_back1" />
+            <CheckBoxPreference
+                android:key="pref_menu_button_answers_call"
+                android:summary="@string/gdx_call_screen_buttons_menu2"
+                android:title="@string/gdx_call_screen_buttons_menu1" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/gdx_call_screen_other" >
+            <PreferenceScreen
+                android:key="custom_carrier_menu"
+                android:summary="@string/gdx_call_screen_other_carrier2"
+                android:title="@string/gdx_call_screen_other_carrier1" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.cyanogenmod.cmparts.activities.CustomCarrier"
+                    android:targetPackage="com.cyanogenmod.cmparts" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <!--
+            <CheckBoxPreference android:key="pref_smart_dialer"
+		    android:title="@string/pref_smart_dialer_title" android:summary="@string/pref_smart_dialer_summary"/>
+        -->
+    </PreferenceScreen>
+
+    <!-- AChep -->
+    <PreferenceScreen
+        android:summary="@string/gdx_alarm_screen2"
+        android:title="@string/gdx_alarm_screen1" >
+        <CheckBoxPreference
+            android:key="pref_achep_alarm_increasing_volume_enabled"
+            android:title="@string/gdx_alarm_screen_increasing" />
+        <CheckBoxPreference
+            android:key="pref_achep_alarm_math_questions_enabled"
+            android:summary="@string/gdx_alarm_screen_mathquiz2"
+            android:title="@string/gdx_alarm_screen_mathquiz1" />
+
+        <ListPreference
+            android:entries="@array/achep_alarm_flip_actions"
+            android:entryValues="@array/achep_alarm_flip_actions_values"
+            android:key="pref_achep_alarm_flip_action"
+            android:summary="@string/gdx_alarm_screen_flip2"
+            android:title="@string/gdx_alarm_screen_flip1" />
+        <ListPreference
+            android:entries="@array/achep_alarm_flip_actions"
+            android:entryValues="@array/achep_alarm_flip_actions_values"
+            android:key="pref_achep_alarm_shake_action"
+            android:summary="@string/gdx_alarm_screen_shake2"
+            android:title="@string/gdx_alarm_screen_shake1" />
+    </PreferenceScreen>
+
+    <!-- AChep's Jellybean -->
+    <PreferenceScreen
+        android:summary="@string/gdx_jelly_screen2"
+        android:title="@string/gdx_jelly_screen1" >
+        <Preference
+            android:enabled="false"
+            android:summary="@string/gdx_jelly_screen_information2"
+            android:title="@string/gdx_jelly_screen_information1" />
+
+        <PreferenceCategory android:title="@string/gdx_jelly_screen_status_bar_category" >
+            <CheckBoxPreference
+                android:key="pref_achep_jb_status_bar"
+                android:title="@string/gdx_jelly_screen_status_bar" />
+            <com.cyanogenmod.cmparts.preferences.GingerDXJBStatusBarPanelTransparencyPicker
+                android:key="pref_achep_jb_status_bar_panel_background_transparency"
+                android:summary="@string/gdx_jelly_screen_status_bar_panel_transparency2"
+                android:title="@string/gdx_jelly_screen_status_bar_panel_transparency1" /><!--
+			<CheckBoxPreference
+				android:key="pref_achep_jb_status_bar_soft_buttons"
+				android:summary="@string/gdx_jelly_screen_sbbuttons2"
+				android:title="@string/gdx_jelly_screen_sbbuttons1" />-->
+            <CheckBoxPreference
+                android:key="pref_achep_jb_status_bar_notification"
+                android:title="@string/gdx_jelly_screen_status_bar_notification" />
+            <CheckBoxPreference
+                android:key="pref_achep_jb_status_bar_notification_bigger"
+                android:summary="@string/gdx_jelly_screen_status_bar_notification_bigger2"
+                android:title="@string/gdx_jelly_screen_status_bar_notification_bigger1" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <!-- LED -->
+
+    <PreferenceScreen
+        android:title="@string/gdx_led_screen1"
+        android:summary="@string/gdx_led_screen2" >
+        <CheckBoxPreference
+            android:key="pref_led_disabled"
+            android:title="@string/gdx_led_screen_enabled" />
+
+        <ListPreference
+            android:dialogTitle="@string/gdx_led_screen_from1"
+            android:entries="@array/entries_led_disabled_from"
+            android:entryValues="@array/values_led_disabled_from"
+            android:key="pref_led_disabled_from"
+            android:summary="@string/gdx_led_screen_from2"
+            android:title="@string/gdx_led_screen_from1" />
+        <ListPreference
+            android:dialogTitle="@string/gdx_led_screen_to1"
+            android:entries="@array/entries_led_disabled_to"
+            android:entryValues="@array/values_led_disabled_to"
+            android:key="pref_led_disabled_to"
+            android:summary="@string/gdx_led_screen_to2"
+            android:title="@string/gdx_led_screen_to1" />
+    </PreferenceScreen>
+
+    <!-- Other options -->
+
+    <PreferenceScreen
+        android:title="@string/gdx_other_screen1"
+        android:summary="@string/gdx_other_screen2" >
+        <PreferenceCategory android:title="@string/gdx_other_screen_userinterface" >
+        	<CheckBoxPreference
+        	    android:key="pref_center_clock_status_bar"
+        	    android:summary="@string/gdx_other_screen_status_bar_centerclock2"
+        	    android:title="@string/gdx_other_screen_status_bar_centerclock1" />
+        	<com.cyanogenmod.cmparts.preferences.GingerDXStatusBarTransparencyPicker
+        	    android:summary="@string/gdx_other_screen_status_bar_transparency2"
+        	    android:title="@string/gdx_other_screen_status_bar_transparency1" />
+       		<CheckBoxPreference
+        	    android:key="pref_achep_ring_lockscreen"
+        	    android:summary="@string/gdx_other_screen_ringlock2"
+        	    android:title="@string/gdx_other_screen_ringlock1" />
+        	<CheckBoxPreference
+        	    android:key="pref_sense3_lockscreen"
+        	    android:summary="@string/gdx_other_screen_senselock2"
+        	    android:title="@string/gdx_other_screen_senselock1" />
+        	<CheckBoxPreference
+        	    android:key="pref_hide_avatar_message"
+        	    android:title="@string/gdx_other_screen_hidemsgavatar" />
+		
+	</PreferenceCategory>
+        <PreferenceCategory android:title="@string/gdx_call_screen_other" >
+        <CheckBoxPreference
+            android:key="pref_ultra_brightness"
+            android:title="@string/gdx_other_screen_ultrabrightness1"
+            android:summary="@string/gdx_other_screen_ultrabrightness2" />
+        <CheckBoxPreference
+            android:key="pref_quick_copy_paste"
+            android:title="@string/gdx_other_screen_copypaste" />
+        <ListPreference
+            android:dialogTitle="@string/gdx_other_screen_updates1"
+            android:entries="@array/values_update_check_hour"
+            android:entryValues="@array/values_update_check_hour"
+            android:key="pref_update_check_hour"
+            android:summary="@string/gdx_other_screen_updates2"
+            android:title="@string/gdx_other_screen_updates1" />
+		
+        <Preference
+            style="?android:preferenceInformationStyle"
+            android:key="pref_gingerdx_about"
+            android:summary="@string/gdx_other_screen_about2"
+            android:title="@string/gdx_other_screen_about1" />
+		</PreferenceCategory>
+		
+        <!--
+            <CheckBoxPreference android:key="pref_recent_apps_status_bar"
+		    android:title="@string/pref_recent_apps_status_bar_title"
+		    android:summary="@string/pref_recent_apps_status_bar_summary" /
+        -->
+    </PreferenceScreen>
+    <!--
+    CheckBoxPreference android:key="pref_flipping_snoozes_alarm" android:title="@string/pref_flipping_down_snoozes_alarm_title"
+			android:summary="@string/pref_flipping_down_snoozes_alarm_summary"/>
+	</PreferenceCategory
+    -->
+
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- dx -->
+	<!-- GingerDX settings -->
+	<string name="gingerdx_settings_title">Pengaturan GingerDX</string>
+	<string name="gingerdx_settings_summary">Ubah opsi GingerDX</string>
+	<string name="gdx_led_screen2">LED dinonaktifkan di malam hari...</string>
+	<string name="gdx_led_screen_enabled">...diaktifkan</string>
+	<string name="gdx_led_screen_from1">dari jam...</string>
+	<string name="gdx_led_screen_to1">sampai...</string>
+
+	<string name="flipping_down_title">Membalikkan ke bawah...</string>
+	<string name="pref_flipping_down_mutes_ringer_title">...me matikan suara</string>
+	<string name="pref_flipping_down_snoozes_alarm_title">...m enunda alarm</string>
+	<string name="pref_flipping_down_snoozes_alarm_summary">Ti dak bertanggungjawab untuk dipecat!</string>
+
+	<string name="gdx_call_screen1">Opsi Panggilan</string>
+	<string name="gdx_call_screen_sound_lounder1">Panggil lebih keras</string>
+	<string name="gdx_call_screen_sound_lounder2">Volume suara lebih keras ketika HP berada di tas</string>
+	<string name="gdx_call_screen_buttons_back2">Tombol kembali mengakhiri panggilan</string>
+	<string name="gdx_call_screen_sound_loop1">Ringtone berulang</string>
+	<string name="gdx_call_screen_sound_loop2">Lagi dan lagi...</string>
+
+	<string name="gdx_other_screen1">Fitur lain</string>
+	<string name="gdx_other_screen_hidemsgavatar">Menghilangka n avatar pada konten SMS</string>
+	<string name="gdx_other_screen_copypaste">Pintasan Salin / Tempel </string>
+	<string name="gdx_other_screen_status_bar_transparency1">Bilah status transparan</string>
+	<string name="gdx_other_screen_status_bar_transparency2">Mulai ulang ponsel untuk menerapkan pengaturan</string>
+	<string name="gdx_other_screen_senselock1">Layar kunci Sense 3</string>
+	<string name="gdx_other_screen_senselock2">Dengan fungsi dasar</string>
+	<string name="gdx_other_screen_about1">Tentang</string>
+	<string name="gdx_other_screen_about2">GingerDX by TeamFun</string>
+
+	<string name="pref_custom_carrier_title">Tulisan operator</string>
+	<string name="pref_custom_carrier_summary">Muncul di layar terkunci atau statusbar</string>
+	<string name="carrier_label">Nama operator (kosongkan untuk menonaktifkan)</string>
+	<string name="custom_carrier">Nama operator</string>
+	<string name="ok_button">Selesai</string>
+	<string name="cancel_button">Batal</string>
+</resources>

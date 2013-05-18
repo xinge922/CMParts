@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- dx -->
+    <!-- GingerDX опции -->
+    <string name="gingerdx_settings_title">GingerDX опции</string>
+    <string name="gingerdx_settings_summary">Промяна на специфичните опции на GingerDX</string>
+    <string name="gdx_led_screen2">Деактивиран LED през нощта...</string>
+    <string name="gdx_led_screen_enabled">...активиран</string>
+    <string name="gdx_led_screen_from1">...от</string>
+    <string name="gdx_led_screen_to1">...до</string>
+
+    <string name="flipping_down_title">Обръщане надолу...</string>
+    <string name="pref_flipping_down_mutes_ringer_title">...заглушаване на звъненето</string>
+    <string name="pref_flipping_down_snoozes_alarm_title">...дрямка</string>
+    <string name="pref_flipping_down_snoozes_alarm_summary">Не нося отговорност за уволнение!</string>
+
+    <string name="gdx_call_screen1">функции за повикване</string>
+    <string name="gdx_call_screen_sound_lounder1">По-силно звънене</string>
+    <string name="gdx_call_screen_sound_lounder2">По-силно звънене, когато телефона е в чанти</string>
+    <string name="gdx_call_screen_buttons_back2">Бутона Back прекратява разговора</string>
+    <string name="gdx_call_screen_sound_loop1">Повтарянe на рингтона</string>
+    <string name="gdx_call_screen_sound_loop2">Отново, отново и отново...</string>
+    <string name="pref_smart_dialer_title">Умно набиране</string>
+    <string name="pref_smart_dialer_summary">Дава предложения при набиране</string>
+
+    <string name="gdx_other_screen1">Други финкции</string>
+	<string name="gdx_other_screen_hidemsgavatar">Скриване на аватара в съдържанието на SMS</string>
+	<string name="gdx_other_screen_copypaste">Бързо копиране / Бързо поставяне</string>
+    <string name="gdx_other_screen_status_bar_transparency1">Прозрачност на статус бара</string>
+    <string name="gdx_other_screen_status_bar_transparency2">Рестартирай за прилагането на промените</string>
+    <string name="gdx_other_screen_senselock1">Sense 3 Lockscreen</string>
+    <string name="gdx_other_screen_senselock2">Само основните функции</string>
+    <string name="pref_recent_apps_status_bar_title">Последно отворените програми - в статус бара</string>
+    <string name="pref_recent_apps_status_bar_summary">Покажи най-много 16 приложения</string>
+    <string name="gdx_other_screen_about1">Относно</string>
+    <string name="gdx_other_screen_about2">GingerDX built v000 by TeamFun@xda</string>
+    
+    <string name="pref_custom_carrier_title">Поръчков статус на оператора</string>
+    <string name="pref_custom_carrier_summary">Появява се на локсрийна/статус бара</string>
+    <string name="carrier_label">Статус на оператора (оставете празно, за изключено)</string>
+    <string name="custom_carrier">Статус на оператора</string>
+    <string name="ok_button">Готово</string>
+    <string name="cancel_button">Отказ</string>
+</resources>

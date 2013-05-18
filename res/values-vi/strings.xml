@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- dx -->
+    <!-- GingerDX settings -->
+    <string name="gingerdx_settings_title">Cấu hình GingerDX</string>
+    <string name="gingerdx_settings_summary">Tùy chỉnh riêng cho GingerDX</string>
+    <string name="gdx_led_screen2">Tắt đèn LED vào ban đêm...</string>
+    <string name="gdx_led_screen_enabled">...kích hoạt</string>
+    <string name="gdx_led_screen_from1">...từ</string>
+    <string name="gdx_led_screen_to1">...đến</string>
+
+    <string name="flipping_down_title">Úp máy...</string>
+    <string name="pref_flipping_down_mutes_ringer_title">...tắt chuông gọi</string>
+    <string name="pref_flipping_down_snoozes_alarm_title">...tắt chuông báo giờ</string>
+    <string name="pref_flipping_down_snoozes_alarm_summary">Mất việc không chịu trách nhiệm!</string>
+
+    <string name="gdx_call_screen1">Chức năng cuộc gọi</string>
+    <string name="gdx_call_screen_sound_lounder1">Call Me Louder</string>
+    <string name="gdx_call_screen_sound_lounder2">Chuông báo kêu to hơn khi ở trong túi</string>
+    <string name="gdx_call_screen_buttons_back2">Nút back dừng cuộc gọi</string>
+    <string name="gdx_call_screen_sound_loop1">Lặp lại chuông cuộc gọi</string>
+    <string name="gdx_call_screen_sound_loop2">Bất kể định dạng chuông nào</string>
+
+    <string name="gdx_other_screen1">Các chức năng khác</string>
+	<string name="gdx_other_screen_hidemsgavatar">Ẩn hình đại diện trong SMS</string>
+	<string name="gdx_other_screen_copypaste">Copy / Paste nhanh</string>
+    <string name="gdx_other_screen_status_bar_transparency1">Thanh trạng thái trong suốt</string>
+    <string name="gdx_other_screen_status_bar_transparency2">Khởi động lại máy để có hiệu lực</string>
+    <string name="gdx_other_screen_senselock1">Khóa màn hình Sense 3</string>
+    <string name="gdx_other_screen_senselock2">Đang trong quá trình phát triển</string>
+    <string name="gdx_other_screen_about1">Giới thiệu</string>
+    <string name="gdx_other_screen_about2">GingerDX by TeamFun</string>
+    
+    <string name="pref_custom_carrier_title">Đặt tên nhà mạng</string>
+    <string name="pref_custom_carrier_summary">Chỉ trong khóa màn hình / thanh trạng thái</string>
+    <string name="carrier_label">Tên nhà mạng (để trống nếu không dùng)</string>
+    <string name="custom_carrier">Tên nhà mạng</string>
+    <string name="ok_button">Xác nhận </string>
+    <string name="cancel_button">Hủy</string>
+
+ <string name="gdx_alarm_screen1">Cài đặt chuông báo</string>
+
+    <string name="gdx_alarm_screen_mathquiz1">Câu hỏi toán học</string>
+    <string name="gdx_alarm_screen_mathquiz2">Trả lời câu hỏi toán để dừng chuông</string>
+    <string name="gdx_alarm_screen_flip1">Úp máy</string>
+    <string name="gdx_alarm_screen_flip2">Úp máy để lùi chuông hoặc tắt chuông</string>
+    <string name="gdx_alarm_screen_shake1">Lắc máy</string>
+    <string name="gdx_alarm_screen_shake2">Lắc máy để lùi chuông hoặc tắt chuông</string>
+    <string name="gdx_alarm_screen_increasing">Âm lượng tăng dần</string>
+</resources>

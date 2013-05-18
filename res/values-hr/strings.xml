@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- dx -->
+	<!-- GingerDX settings -->
+	<string name="gingerdx_settings_title">GingerDX postavke</string>
+	<string name="gingerdx_settings_summary">Postavke specifične za GingerDX</string>
+	<string name="gdx_led_screen2">LED onemogućen u noći</string>
+	<string name="gdx_led_screen_enabled">...omogućeno</string>
+	<string name="gdx_led_screen_from1">...od</string>
+	<string name="gdx_led_screen_to1">...do</string>
+
+	<string name="flipping_down_title">Preokretanje uređaja...</string>
+	<string name="pref_flipping_down_mutes_ringer_title">...is ključuje zvonjavu</string>
+	<string name="pref_flipping_down_snoozes_alarm_title">...o gdađa zvonjavu alarma</string>
+	<string name="pref_flipping_down_snoozes_alarm_summary">Ni sam odgovaran ako dobijete otkaz!</string>
+
+	<string name="gdx_call_screen1">Mogućnosti poziva</string>
+	<string name="gdx_call_screen_sound_lounder1">Call Me Louder</string>
+	<string name="gdx_call_screen_sound_lounder2">Glasnija zvonjava kad je telefon u torbi</string>
+	<string name="gdx_call_screen_buttons_back2">Tipka nazad završava poziv</string>
+	<string name="gdx_call_screen_sound_loop1">Petlja zvonjave</string>
+	<string name="gdx_call_screen_sound_loop2">Ponovno i ponovno...</string>
+
+	<string name="gdx_other_screen1">Ostale mogućnosti</string>
+	<string name="gdx_other_screen_hidemsgavatar">Sakrij sličicu u SMS sadržaju</string>
+	<string name="gdx_other_screen_copypaste">Brzi kopiraj i zalijepi</string>
+	<string name="gdx_other_screen_status_bar_transparency1">Prozirnos t statusne trake</string>
+	<string name="gdx_other_screen_status_bar_transparency2">Ponovno pokreni za primjenu</string>
+	<string name="gdx_other_screen_senselock1">Sense 3 zaslon zaključavanja</string>
+	<string name="gdx_other_screen_senselock2">Samo osnovna funkcionalsnot</string>
+	<string name="gdx_other_screen_about1">O GingerDX</string>
+	<string name="gdx_other_screen_about2">GingerDX by TeamFun</string>
+
+	<string name="pref_custom_carrier_title">Tekst davatelja usluge</string>
+	<string name="pref_custom_carrier_summary">Samo na zaslonu zaključ./statusnoj traci</string>
+	<string name="carrier_label">Tekst davatelja uslige (prazno za isklj.)</string>
+	<string name="custom_carrier">Tekst davatelja usluge</string>
+	<string name="ok_button">Gotovo</string>
+	<string name="cancel_button">Poništi</string>
+</resources>
