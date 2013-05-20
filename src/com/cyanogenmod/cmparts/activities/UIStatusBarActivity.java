@@ -200,6 +200,9 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
             } else if (statusBarBattery == 5) {
                    Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_BATTERY, 5);
                    restartStatusBar();
+            } else if (statusBarBattery == 6) {
+                   Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_BATTERY, 6);
+                   restartStatusBar();
             } else if (statusBarBattery == 0) {
                     Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_BATTERY, 0);
                     restartStatusBar();

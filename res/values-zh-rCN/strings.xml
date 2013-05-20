@@ -1019,47 +1019,35 @@
     <string name="framework_settings_summary">设置系统框架</string>
     <string name="font_settings">字体设置</string>
     <string name="font_settings_summary">设置系统字体</string>
+     <!-- spare parts --> 
     <string name="ui_spareparts_title">附加设置</string>
-
     <string name="device_info_title">设备信息</string>
-
     <string name="title_battery_history">电池使用记录</string>
     <string name="summary_battery_history">电池使用记录一览表</string>
-
     <string name="title_battery_information">电池信息</string>
     <string name="summary_battery_information">目前的电池状态信息</string>
-
     <string name="title_usage_statistics">使用情况统计</string>
     <string name="summary_usage_statistics">应用程序使用情况</string>
-
     <string name="general_title">常规设置</string>
-
     <string name="title_window_animations">窗口动画</string>
     <string name="summary_window_animations">个别窗口的动画速度</string>
     <string name="dialog_title_window_animations">选择窗口速度</string>
-
     <string name="title_transition_animations">过渡动画</string>
     <string name="summary_transition_animations">设置在屏幕之间移动的动画速度</string>
     <string name="dialog_title_transition_animations">选择过度速度</string>
-
     <string name="title_fancy_ime_animations">输入法动画</string>
     <string name="summary_on_fancy_ime_animations">使用输入法窗口花式动画</string>
     <string name="summary_off_fancy_ime_animations">使用正常的输入法动画</string>
-
     <string name="title_haptic_feedback">触摸反馈</string>
     <string name="summary_on_haptic_feedback">启用用户界面交互触摸反馈</string>
-    <string name="summary_off_haptic_feedback">关闭用户界面交互触摸反馈</string>
-
+    <string name="summary_off_haptic_feedback">关闭界面交互触摸反馈</string>
     <string name="title_font_size">字体大小</string>
     <string name="summary_font_size">系统字体大小</string>
     <string name="dialog_title_font_size">选择字体大小</string>
-
     <string name="title_end_button">挂机键行为</string>
     <string name="summary_end_button">选择挂机（红色）键的动作</string>
     <string name="dialog_title_end_button">选择结束通话键动作</string>
-
     <string name="applications_title">应用程序</string>
-
     <!-- Sound & display settings screen, compatibility mode check box label -->
     <string name="compatibility_mode_title">兼容模式</string>
     <!-- Sound & display settings screen, compatibility mode option summary text when check box is selected -->

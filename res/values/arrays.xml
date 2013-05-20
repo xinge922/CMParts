@@ -94,16 +94,18 @@
         <item>Icon (Default)</item>
         <item>Percentage</item>
         <item>Top Status Bar</item>
-	     <item>Circle</item>
-	     <item>Circle Percentage</item>
+	<item>Circle</item>
+        <item>Behind Status Bar</item>
+	<item>Circle Percentage</item>
         <item>Hidden</item>
     </string-array>
     <string-array name="values_status_bar_battery" translatable="false">
         <item>0</item>
         <item>1</item>
-	    <item>3</item>
+	<item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
         <item>2</item>
     </string-array>
     <string-array name="entries_status_bar_signal" translatable="false">
